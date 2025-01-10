@@ -16,7 +16,7 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico.png" />
             </Head>
             <Header />
-            <main className="snap-y snap-mandatory overflow-scroll">
+            <main className="snap-y snap-mandatory">
                 <section id="inicio" className="snap-start">
                     <Hero />
                 </section>

@@ -24,26 +24,35 @@ export default function Header() {
       }`}
     >
       <div className="container mx-auto flex items-center justify-between p-4">
-        {/* Título o Logo */}
-        <h1 className="text-2xl font-bold text-[#fbd862]">
-          ✨ Regenera Center
-        </h1>
+        {/* Logo y Título */}
+        <div className="flex items-center space-x-3">
+          {/* Logo */}
+          <img
+            src="/logo1.png" // Reemplaza con la ruta de tu logo
+            alt="Logo Regenera Center"
+            className="w-12 h-12" // Ajusta el tamaño del logo según sea necesario
+          />
+          <h1 className="text-2xl font-bold text-[#fbd862]">
+          Regenera Center
+          </h1>
+        </div>
 
-        {/* Navegación */}
-        <nav className="space-x-6 text-gray-800">
-          <a href="#inicio" className="hover:text-[#fbd862] no-underline">
-            Inicio
-          </a>
-          <a href="#servicios" className="hover:text-[#fbd862] no-underline">
-            Servicios
-          </a>
-          <a href="#nosotros" className="hover:text-[#fbd862] no-underline">
-            Nosotros
-          </a>
-          <a href="#contacto" className="hover:text-[#fbd862] no-underline">
-            Contacto
-          </a>
-        </nav>
+ {/* Navegación */}
+<nav className="space-x-6 text-white"> {/* Cambié text-gray-800 a text-white */}
+  <a href="#inicio" className="hover:text-[#fbd862] no-underline">
+    INICIO
+  </a>
+  <a href="#servicios" className="hover:text-[#fbd862] no-underline">
+    SERVICIOS
+  </a>
+  <a href="#nosotros" className="hover:text-[#fbd862] no-underline">
+    NOSOTROS
+  </a>
+  <a href="#contacto" className="hover:text-[#fbd862] no-underline">
+    CONTACTO
+  </a>
+</nav>
+
 
         {/* Íconos de Redes Sociales */}
         <div className="flex items-center space-x-4">
