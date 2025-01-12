@@ -73,7 +73,7 @@ export default function Services() {
         },
 
         {
-            title: 'Terapia de Hormonas Bioidénticas',
+            title: 'Medicina Antiaging',
             images: [
                 {
                     src: '/EXOSOMAS.png',
