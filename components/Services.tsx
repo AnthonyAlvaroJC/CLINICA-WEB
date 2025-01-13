@@ -3,7 +3,7 @@ import ServiceCardCarousel from './ServiceCardCarousel';
 export default function Services() {
     const services = [
         {
-            title: 'Medicina Estética Facial',
+            title: 'MEDICINA ESTÉTICA FACIAL',
             images: [
                 {
                     src: '/ACIDO_HIALURONICO_FACIAL.png',
@@ -22,6 +22,30 @@ export default function Services() {
                     subtitle: 'Radiofrecuencia Facial',
                     content:
                         'Tratamiento no invasivo que activa la producción de colágeno, reduciendo arrugas y líneas de expresión para un efecto rejuvenecedor.',
+                },
+                {
+                    src: '/BIOFOTOTERAPIA.png',
+                    subtitle: 'BIOFOTOTERAPIA',
+                    content:
+                        '..........',
+                },
+                {
+                    src: '/BOTOX.png',
+                    subtitle: 'BOTOX',
+                    content:
+                        '..........',
+                },
+                {
+                    src: '/HILOS TENSORES.png',
+                    subtitle: 'HILOS TENSORES',
+                    content:
+                        '..........',
+                },
+                {
+                    src: '/LÁSER LPI.png',
+                    subtitle: 'LÁSER LPI',
+                    content:
+                        '..........',
                 },
             ],
         },
@@ -73,27 +97,20 @@ export default function Services() {
         },
 
         {
-            title: 'Medicina Antiaging',
+            title: 'H. PROCEDIMIENTOS ESTETICOS UROLOGICOS',
             images: [
                 {
-                    src: '/EXOSOMAS.png',
-                    subtitle: 'Terapia Hormonal Bioidénticas con Pellets (CHIP)',
+                    src: '/ALARGAMIENTO DE PENE.png',
+                    subtitle: 'Alargamiento de Pene',
                     content:
-                        'Implantes subdérmicos que liberan hormonas bioidénticas, mejorando síntomas hormonales como fatiga y baja libido. Proporcionan equilibrio estable y bienestar prolongado.',
+                        '...................................',
                 },
                 {
-                    src: '/FOTO_TERAPIA.png',
-                    subtitle: 'Formulaciones Magistrales de Hormonas Bioidénticas',
-                    content:
-                        'Terapia de luz avanzada que trata acné, manchas, envejecimiento y otros problemas cutáneos con resultados visibles.',
+                    src: '/ershot xl plama.png',
+                    subtitle: 'ERSHOT XL PLAMA',
+                    content:  '...............................',
                 },
-                {
-                    src: '/TEST_EPIGENETICO.png',
-                    subtitle: 'Modulación Hormonal en Menopausia y Andropausia',
-                    content:
-                        'Análisis avanzado para evaluar la influencia del entorno y el estilo de vida en tu salud, orientándote hacia un bienestar óptimo.',
-                },
-               
+                              
             ],
         },
         {
@@ -166,25 +183,79 @@ export default function Services() {
             ],
         },
         {
-            title: 'Tratamiento de cirugía estética',
+            title: 'CIRUGIAS ESTETICAS GINECOLOGICAS AMBULATORIAS',
             images: [
                 {
-                    src: '/EXOSOMAS.png',
-                    subtitle: 'Exosomas',
+                    src: '/AUMENTO SENSIBILIDAD CLOTORIDIANA (PUNTO O-SHOT).png',
+                    subtitle: 'AUMENTO SENSIBILIDAD CLOTORIDIANA (PUNTO O-SHOT)',
                     content:
-                        'Innovador tratamiento regenerativo que utiliza exosomas para reparar tejidos, mejorar la salud celular y revitalizar la piel.',
+                        '...........................',
                 },
                 {
-                    src: '/FOTO_TERAPIA.png',
-                    subtitle: 'Foto-Terapia',
+                    src: '/INCREMENTO DEL PUNTO G.png',
+                    subtitle: 'INCREMENTO DEL PUNTO G',
                     content:
-                        'Terapia de luz avanzada que trata acné, manchas, envejecimiento y otros problemas cutáneos con resultados visibles.',
+                        '...........................',
                 },
                 {
-                    src: '/TEST_EPIGENETICO.png',
-                    subtitle: 'Test Epigenético',
+                    src: '/LABIOPLASTIAS.png',
+                    subtitle: 'LABIOPLASTIAS',
                     content:
-                        'Análisis avanzado para evaluar la influencia del entorno y el estilo de vida en tu salud, orientándote hacia un bienestar óptimo.',
+                        '..............................',
+                },
+                {
+                    src: '/LIFTING QUIRURGICO DE LABIOS MAYORES.png',
+                    subtitle: 'LIFTING QUIRURGICO DE LABIOS MAYORES',
+                    content:
+                        '..............................',
+                },
+                {
+                    src: '/LIPOASPIRACION DE MONTE DE VENUS.png',
+                    subtitle: 'LIPOASPIRACION DE MONTE DE VENUS',
+                    content:
+                        '..............................',
+                },
+                {
+                    src: '/LIPOTRANSFERENCIA GRASA AUTOLOGA A ZONA INTIMA.png',
+                    subtitle: 'LIPOTRANSFERENCIA GRASA AUTOLOGA A ZONA INTIMA',
+                    content:
+                        '..............................',
+                },
+                {
+                    src: '/MONTPLASTÍAS.png',
+                    subtitle: 'MONTPLASTÍAS',
+                    content:
+                        '..............................',
+                },
+                {
+                    src: '/OBTENCION DE FRACCION VASCULAR ESTROMAL.png',
+                    subtitle: 'OBTENCION DE FRACCION VASCULAR ESTROMAL',
+                    content:
+                        '..............................',
+                },
+                {
+                    src: '/OBTENCION DE NANOFAT.png',
+                    subtitle: 'OBTENCION DE NANOFAT',
+                    content:
+                        '..............................',
+                },
+                {
+                    src: '/PERINEOPLASTIAS.png',
+                    subtitle: 'PERINEOPLASTIAS',
+                    content:
+                        '..............................',
+                },
+                {
+                    src: '/RELLENO O AUMENTO DE LABIOS MAYORES.png',
+                    subtitle: 'RELLENO O AUMENTO DE LABIOS MAYORES',
+                    content:
+                        '..............................',
+                },
+                {
+                    src: '/VAGINOPLASTIAS.png',
+                    subtitle: 'VAGINOPLASTIAS',
+                    content:
+                        '..............................',
                 },
             ],
         },
