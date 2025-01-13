@@ -38,15 +38,15 @@ export default function Footer() {
                     <h3 className="text-xl font-semibold mb-4">Contáctanos</h3>
                     <ul className="space-y-4">
                         <li className="flex items-center">
-                            <FontAwesomeIcon icon={faPhone} className="text-green-500 mr-3" />
+                            <FontAwesomeIcon icon={faPhone} className="text-[#fbd862] mr-3" />
                             <span className="text-gray-400">+51 997 584 512</span>
                         </li>
                         <li className="flex items-center">
-                            <FontAwesomeIcon icon={faEnvelope} className="text-green-500 mr-3" />
+                            <FontAwesomeIcon icon={faEnvelope} className="text-[#fbd862] mr-3" />
                             <span className="text-gray-400">info@regeneracenter.com</span>
                         </li>
                         <li className="flex items-center">
-                            <FontAwesomeIcon icon={faMapMarkerAlt} className="text-green-500 mr-3" />
+                            <FontAwesomeIcon icon={faMapMarkerAlt} className="text-[#fbd862] mr-3" />
                             <span className="text-gray-400">Av. Salud y Belleza 123, Lima, Perú</span>
                         </li>
                     </ul>

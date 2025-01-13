@@ -38,7 +38,7 @@ export default function AboutUs() {
                         transition={{ duration: 1 }}
                         viewport={{ once: true }}
                     >
-                        <h3 className="text-3xl font-semibold text-gray-800">
+                        <h3 className="text-3xl font-semibold text-[#135e82]">
                             Un Enfoque Holístico
                         </h3>
                         <p className="text-lg text-gray-600 mt-4">

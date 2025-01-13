@@ -40,11 +40,11 @@ export default function Hero() {
         <section className="relative h-screen flex items-center bg-gradient-to-r from-[#0e4a6e] via-[#135e82] to-[#1994bf]">
             {/* Contenido del Texto */}
             <div className="w-full md:w-1/3 h-full flex flex-col justify-center px-8 md:px-12 text-white">
-                <h1 className="text-4xl md:text-5xl font-bold">{title}</h1>
+                <h1 className="text-4xl md:text-5xl font-bold text-[#fbd862]">{title}</h1>
                 <p className="mt-4 text-lg md:text-xl">{description}</p>
                 <a
                     href="#servicios"
-                    className="mt-6 inline-block bg-white text-green-700 py-3 px-6 rounded-lg shadow hover:bg-gray-100 transition"
+                    className="mt-6 inline-block bg-white text-[#135e82] py-3 px-6 rounded-lg shadow hover:bg-gray-100 transition"
                 >
                     Explorar Servicios
                 </a>

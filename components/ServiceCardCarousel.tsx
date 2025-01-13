@@ -113,7 +113,7 @@ export default function ServiceCardCarousel({ images, title }: ServiceCardCarous
           {/* Card content */}
           <div className="p-6 flex flex-col justify-between h-[200px]">
             <div>
-              <h4 className="text-lg font-semibold text-green-700">{images[currentIndex].subtitle}</h4>
+              <h4 className="text-lg font-semibold text-[#135e82]">{images[currentIndex].subtitle}</h4>
               <p className="text-gray-600 mt-2">{images[currentIndex].content}</p>
             </div>
           </div>

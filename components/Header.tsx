@@ -60,7 +60,7 @@ export default function Header() {
             href="https://www.facebook.com/share/gyFRCB4j7te9wFnk/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-600 hover:text-blue-500 transition"
+            className="text-gray-100 hover:text-blue-800 transition"
           >
             <FontAwesomeIcon icon={faFacebook} size="lg" />
           </a>
@@ -68,7 +68,7 @@ export default function Header() {
             href="https://www.instagram.com/regeneracenterperu/profilecard/?igsh=MXBxMmh0bXdrbjB2aQ=="
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-600 hover:text-pink-500 transition"
+            className="text-gray-100 hover:text-pink-700 transition"
           >
             <FontAwesomeIcon icon={faInstagram} size="lg" />
           </a>
@@ -76,7 +76,7 @@ export default function Header() {
             href="https://www.tiktok.com/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-600 hover:text-black transition"
+            className="text-gray-100 hover:text-black transition"
           >
             <FontAwesomeIcon icon={faTiktok} size="lg" />
           </a>
