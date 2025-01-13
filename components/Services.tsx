@@ -50,7 +50,7 @@ export default function Services() {
             ],
         },
         {
-            title: 'Medicina Corporal',
+            title: 'MEDICINA CORPORAL',
             images: [
                 {
                     src: '/DEPILACION_LASER.png',
@@ -70,6 +70,31 @@ export default function Services() {
                     content:
                         'Estimula la producción de colágeno y elastina para reafirmar la piel, reducir celulitis y remodelar el contorno corporal.',
                 },
+                {
+                    src: '/CRIOLIPOLIS.png',
+                    subtitle: 'CRIOLIPOLIS',
+                    content:
+                        '..........',
+                },
+                {
+                    src: '/DEPILACION LASER.png',
+                    subtitle: 'DEPILACION LASER',
+                    content:
+                        '..........',
+                },
+                {
+                    src: '/MASAJE DRENANTE.png',
+                    subtitle: 'MASAJE DRENANTE',
+                    content:
+                        '..........',
+                },
+                {
+                    src: '/MUSCULPTING.png',
+                    subtitle: 'MUSCULPTING',
+                    content:
+                        '..........',
+                },
+              
             ],
         },
         {
@@ -77,7 +102,7 @@ export default function Services() {
             images: [
                 {
                     src: '/EXOSOMAS.png',
-                    subtitle: 'Exosomas',
+                    subtitle: 'EXOMAS',
                     content:
                         'Innovador tratamiento regenerativo que utiliza exosomas para reparar tejidos, mejorar la salud celular y revitalizar la piel.',
                 },
@@ -92,6 +117,36 @@ export default function Services() {
                     subtitle: 'Test Epigenético',
                     content:
                         'Análisis avanzado para evaluar la influencia del entorno y el estilo de vida en tu salud, orientándote hacia un bienestar óptimo.',
+                },
+                {
+                    src: '/BIO-ESTIMULACIÓN CUTANEA.png',
+                    subtitle: 'BIO-ESTIMULACIÓN CUTANEA',
+                    content:
+                        '..........',
+                },
+                {
+                    src: '/LIPOFILLING CON GRASA AUTOLOGA.png',
+                    subtitle: 'LIPOFILLING CON GRASA AUTOLOGA',
+                    content:
+                        '..........',
+                },
+                {
+                    src: '/MESOTERAPIA CAPILAR.png',
+                    subtitle: 'MESOTERAPIA CAPILAR',
+                    content:
+                        '..........',
+                },
+                {
+                    src: '/PRP.png',
+                    subtitle: '.',
+                    content:
+                        '..........',
+                },
+                {
+                    src: '/RADIOFRECUENCIA FACIAL.png',
+                    subtitle: 'RADIOFRECUENCIA FACIAL',
+                    content:
+                        '..........',
                 },
             ],
         },
@@ -113,75 +168,8 @@ export default function Services() {
                               
             ],
         },
-        {
-            title: 'Medicina Endocrinológia',
-            images: [
-                {
-                    src: '/EXOSOMAS.png',
-                    subtitle: 'Exosomas',
-                    content:
-                        'Innovador tratamiento regenerativo que utiliza exosomas para reparar tejidos, mejorar la salud celular y revitalizar la piel.',
-                },
-                {
-                    src: '/FOTO_TERAPIA.png',
-                    subtitle: 'Foto-Terapia',
-                    content:
-                        'Terapia de luz avanzada que trata acné, manchas, envejecimiento y otros problemas cutáneos con resultados visibles.',
-                },
-                {
-                    src: '/TEST_EPIGENETICO.png',
-                    subtitle: 'Test Epigenético',
-                    content:
-                        'Análisis avanzado para evaluar la influencia del entorno y el estilo de vida en tu salud, orientándote hacia un bienestar óptimo.',
-                },
-            ],
-        },
-        {
-            title: '------------------------',
-            images: [
-                {
-                    src: '/EXOSOMAS.png',
-                    subtitle: 'Exosomas',
-                    content:
-                        'Innovador tratamiento regenerativo que utiliza exosomas para reparar tejidos, mejorar la salud celular y revitalizar la piel.',
-                },
-                {
-                    src: '/FOTO_TERAPIA.png',
-                    subtitle: 'Foto-Terapia',
-                    content:
-                        'Terapia de luz avanzada que trata acné, manchas, envejecimiento y otros problemas cutáneos con resultados visibles.',
-                },
-                {
-                    src: '/TEST_EPIGENETICO.png',
-                    subtitle: 'Test Epigenético',
-                    content:
-                        'Análisis avanzado para evaluar la influencia del entorno y el estilo de vida en tu salud, orientándote hacia un bienestar óptimo.',
-                },
-            ],
-        },
-        {
-            title: 'Tratamiento de cirugía no invasiva',
-            images: [
-                {
-                    src: '/EXOSOMAS.png',
-                    subtitle: 'Exosomas',
-                    content:
-                        'Innovador tratamiento regenerativo que utiliza exosomas para reparar tejidos, mejorar la salud celular y revitalizar la piel.',
-                },
-                {
-                    src: '/FOTO_TERAPIA.png',
-                    subtitle: 'Foto-Terapia',
-                    content:
-                        'Terapia de luz avanzada que trata acné, manchas, envejecimiento y otros problemas cutáneos con resultados visibles.',
-                },
-                {
-                    src: '/TEST_EPIGENETICO.png',
-                    subtitle: 'Test Epigenético',
-                    content:
-                        'Análisis avanzado para evaluar la influencia del entorno y el estilo de vida en tu salud, orientándote hacia un bienestar óptimo.',
-                },
-            ],
-        },
+
+       
         {
             title: 'CIRUGIAS ESTETICAS GINECOLOGICAS AMBULATORIAS',
             images: [
@@ -257,6 +245,32 @@ export default function Services() {
                     content:
                         '..............................',
                 },
+            ],
+        },
+
+        {
+            title: 'TRATAMIENTOS NO QUIRURGICOS',
+            images: [
+                
+                {
+                    src: '/HIFU INTIMO.png',
+                    subtitle: 'HIFU INTIMO',
+                    content:
+                        '..........',
+                },
+                {
+                    src: '/LASER CO2 -1.png',
+                    subtitle: 'LASER CO2 -1',
+                    content:
+                        '..........',
+                },
+                {
+                    src: '/RADIO FRECUENCIA INTIMA.png',
+                    subtitle: 'RADIO FRECUENCIA INTIMA',
+                    content:
+                        '..........',
+                },
+              
             ],
         },
         

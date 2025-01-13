@@ -20,11 +20,11 @@ export default function ContactUs() {
                         </p>
                         <ul className="mt-6 space-y-4">
                             <li className="flex items-center">
-                                <span className="material-icons text-green-700 mr-4">phone</span>
+                                <span className="material-icons text-[#1994bf] mr-4">phone</span>
                                 <p className="text-gray-600">+51 997 584 512</p>
                             </li>
                             <li className="flex items-center">
-                                <span className="material-icons text-green-700 mr-4">email</span>
+                                <span className="material-icons text-[#1994bf] mr-4">email</span>
                                 <p className="text-gray-600">info@regeneracenter.com</p>
                             </li>
                             <li className="flex items-center">
