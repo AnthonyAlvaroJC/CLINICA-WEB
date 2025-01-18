@@ -9,44 +9,57 @@ export default function Services() {
                     src: '/ACIDO_HIALURONICO_FACIAL.png',
                     subtitle: 'Ácido Hialurónico Facial',
                     content:
-                        'El ácido hialurónico es un gran aliado para combatir los signos del envejecimiento, hidratar y revitalizar la piel, devolviéndole elasticidad y frescura.',
-                },
-                {
-                    src: '/LIMPIEZA_FACIAL.png',
-                    subtitle: 'Limpieza Facial',
-                    content:
-                        'Una limpieza profunda que elimina impurezas, células muertas y estimula la regeneración de la piel para un rostro fresco y radiante.',
-                },
-                {
-                    src: '/RADIOFRECUENCIA_FACIAL.png',
-                    subtitle: 'Radiofrecuencia Facial',
-                    content:
-                        'Tratamiento no invasivo que activa la producción de colágeno, reduciendo arrugas y líneas de expresión para un efecto rejuvenecedor.',
-                },
-                {
-                    src: '/BIOFOTOTERAPIA.png',
-                    subtitle: 'BIOFOTOTERAPIA',
-                    content:
-                        '..........',
+                        'Redefine y realza las áreas clave de tu rostro con uno de los tratamientos más versátiles y demandados en medicina estética. Ya sea para dar volumen a pómulos, suavizar ojeras, rellenar líneas nasogenianas o perfilar labios, el ácido hialurónico ofrece resultados naturales e inmediatos. Este tratamiento también hidrata profundamente la piel desde el interior, devolviendo elasticidad y juventud.',
                 },
                 {
                     src: '/BOTOX.png',
                     subtitle: 'BOTOX',
                     content:
-                        '..........',
+                        'El tratamiento número uno para combatir y prevenir las líneas de expresión en áreas como frente, entrecejo y patas de gallo. Botox relaja los músculos faciales, dejando un aspecto fresco, relajado y rejuvenecido. Además, su uso preventivo es ideal para retrasar la aparición de arrugas.',
                 },
                 {
                     src: '/HILOS TENSORES.png',
                     subtitle: 'HILOS TENSORES',
                     content:
-                        '..........',
+                        'Si buscas un efecto lifting sin necesidad de cirugía, los hilos tensores son la solución perfecta. Este procedimiento reposiciona los tejidos, estimula la producción de colágeno y elastina, y redefine el contorno facial. Los resultados son inmediatos y mejoran con el tiempo, dejando un rostro firme y rejuvenecido.',
+                },
+              
+              
+            ],
+        },
+        {
+            title: 'CUIDADO DE LA PIEL FACIAL',
+            images: [
+                {
+                    src: '/MESOTERAPIA FACIAL.png',
+                    subtitle: 'MESOTERAPIA FACIAL',
+                    content:
+                        'Revitaliza tu piel con un cóctel de vitaminas, minerales, antioxidantes y ácido hialurónico que hidratan profundamente y reparan los daños causados por factores externos como el sol y la contaminación. Este tratamiento mejora la textura, luminosidad y firmeza de la piel.',
+                },
+                {
+                    src: '/LIMPIEZA_FACIAL.png',
+                    subtitle: 'Limpieza Facial',
+                    content:
+                        'Un paso esencial para mantener una piel saludable. La limpieza facial elimina impurezas, puntos negros y células muertas acumuladas, dejando tu piel fresca, renovada y preparada para absorber mejor los tratamientos que sigan.',
+                },
+                {
+                    src: '/BIOFOTOTERAPIA.png',
+                    subtitle: 'BIOFOTOTERAPIA',
+                    content:
+                        'Este tratamiento utiliza tecnología de luz LED para regenerar la piel, combatir manchas, mejorar cicatrices de acné y estimular la producción de colágeno. Es indoloro, no invasivo y apto para todo tipo de pieles.',
                 },
                 {
                     src: '/LÁSER LPI.png',
                     subtitle: 'LÁSER LPI',
                     content:
-                        '..........',
+                        'La solución perfecta para unificar el tono de la piel, eliminar manchas solares y mejorar la textura de forma rápida y efectiva. Este láser también combate el enrojecimiento y mejora la luminosidad.',
                 },
+               // {
+               //     src: '/RADIOFRECUENCIA_FACIAL.png',
+               //     subtitle: 'Radiofrecuencia Facial',
+               //     content:
+               //         'Tratamiento no invasivo que activa la producción de colágeno, reduciendo arrugas y líneas de expresión para un efecto rejuvenecedor.',
+               // },
             ],
         },
         {
