@@ -31,8 +31,14 @@ export default function ServiceCardCarousel({ images, title }: ServiceCardCarous
     setCurrentIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length);
   };
 
+  const handleClickOutside = (e: React.MouseEvent<HTMLDivElement>) => {
+    if (e.target === e.currentTarget) {
+      setShowDetail(false);
+    }
+  };
+
   const DetailView = () => (
-    <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center p-4 z-50">
+    <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center p-4 z-50" onClick={handleClickOutside}>
       <div className="bg-white rounded-lg shadow-xl w-full max-w-6xl overflow-y-auto max-h-[90vh]">
         <div className="p-4 flex justify-between items-center border-b sticky top-0 bg-white">
           <h3 className="text-2xl font-bold text-gray-800">{title}</h3>
