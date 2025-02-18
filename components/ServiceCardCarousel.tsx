@@ -79,7 +79,7 @@ export default function ServiceCardCarousel({ images, title }: ServiceCardCarous
   return (
     <>
       <div className="flex justify-center items-center min-h-[50px]">
-        <div className="bg-white rounded-lg shadow-xl overflow-hidden flex flex-col transition-all duration-300 w-[400px] h-[600px]">
+        <div className="bg-white rounded-lg shadow-xl overflow-hidden flex flex-col transition-transform duration-300 hover:scale-105 w-[400px] h-[600px]">
           {/* Title */}
           <div className="text-center py-4">
             <h3 className="text-2xl font-bold text-gray-800">{title}</h3>

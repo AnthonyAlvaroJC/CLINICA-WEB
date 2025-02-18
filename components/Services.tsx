@@ -40,6 +40,7 @@ export default function Services() {
           content:
             "Un paso esencial para mantener una piel saludable. La limpieza facial elimina impurezas, puntos negros y células muertas acumuladas, dejando tu piel fresca, renovada y preparada para absorber mejor los tratamientos que sigan.",
         },
+
         {
           src: "/BIOFOTOTERAPIA.png",
           subtitle: "BIOFOTOTERAPIA",
@@ -47,6 +48,7 @@ export default function Services() {
             "Este tratamiento utiliza tecnología de luz LED para regenerar la piel, combatir manchas, mejorar cicatrices de acné y estimular la producción de colágeno. Es indoloro, no invasivo y apto para todo tipo de pieles.",
         },
         {
+
           src: "/LÁSER LPI.png",
           subtitle: "LÁSER LPI",
           content:
@@ -118,7 +120,7 @@ export default function Services() {
             "Aprovecha el poder de tu propia sangre para regenerar la piel, suavizar líneas de expresión y mejorar cicatrices.",
         },
         {
-          src: "/EXOSOMAS.png",
+          src: "/EXOMAS.png",
           subtitle: "EXOMAS",
           content:
             "Avance revolucionario en regeneración celular que promueve una piel más firme y uniforme.",
@@ -172,7 +174,7 @@ export default function Services() {
       title: "TERAPIA DE HORMONAS BIOIDÉNTICAS",
       images: [
         {
-          src: "/PELLETS (CHIP).png",
+          src: "/REJUCHIP.png",
           subtitle: "PELLETS (CHIP)",
           content:
             "Un tratamiento revolucionario que asegura un equilibrio hormonal continuo. Mejora tu energía, libido, sueño y bienestar general. Ideal para hombres y mujeres.",
@@ -183,12 +185,7 @@ export default function Services() {
           content:
             "Alivia los síntomas de la menopausia y andropausia con soluciones personalizadas que mejoran la calidad de vida.",
         },
-        {
-          src: "/ALOPECIA ANDROGENICA.png",
-          subtitle: "ALOPECIA ANDROGÉNICA",
-          content:
-            "Tratamientos hormonales efectivos para frenar la caída del cabello causada por desequilibrios hormonales.",
-        },
+      
       ],
     },
 
@@ -268,8 +265,8 @@ export default function Services() {
             "Procedimiento quirúrgico que remodela y corrige la forma de los labios menores para mejorar tanto la estética como la funcionalidad. Técnica precisa que reduce molestias y mejora la calidad de vida de la paciente.",
         },
         {
-          src: "/LIFTING QUIRURGICO DE LABIOS MAYORES.png",
-          subtitle: "LIFTING QUIRURGICO DE LABIOS MAYORES",
+          src: "/LIFTING QUIRÚRGICO DE LABIOS MAYORES.png",
+          subtitle: "LIFTING QUIRÚRGICO DE LABIOS MAYORES",
           content:
             "Técnica quirúrgica especializada que rejuvenece y reafirma los labios mayores, restaurando un aspecto más juvenil y mejorando el contorno del área íntima. Procedimiento ambulatorio con resultados duraderos.",
         },
@@ -339,7 +336,7 @@ export default function Services() {
             "Tecnología láser avanzada que ayuda a mejorar la calidad y elasticidad de los tejidos. Tratamiento preciso y controlado que promueve la regeneración natural.",
         },
         {
-          src: "/RADIO FRECUENCIA INTIMA.png",
+          src: "/RADIOFRECUENCIA INTIMA.png",
           subtitle: "RADIO FRECUENCIA INTIMA",
           content:
             "Procedimiento no invasivo que utiliza energía de radiofrecuencia para mejorar el tono y la elasticidad de los tejidos. Tratamiento seguro que estimula la producción de colágeno.",

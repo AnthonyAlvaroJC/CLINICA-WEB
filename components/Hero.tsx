@@ -5,22 +5,22 @@ const carouselData = [
         image: 'carrucell1.png',
         title: 'Medicina Estética Facial',
         description: 'Rejuvenece tu rostro con tratamientos avanzados como ácido hialurónico, Botox y más.',
-        width: '80%', // Porcentaje del ancho personalizado para esta imagen
-        height: '90%', // Porcentaje de la altura personalizado para esta imagen
+        width: '80%',
+        height: '90%',
     },
     {
         image: 'carrucell2.png',
         title: 'Medicina Corporal',
         description: 'Modela tu cuerpo con criolipólisis, mesoterapia y tecnología de vanguardia.',
-        width: '100%', // Porcentaje del ancho personalizado para esta imagen
-        height: '76%', // Porcentaje de la altura personalizado para esta imagen
+        width: '100%',
+        height: '76%',
     },
     {
         image: 'carrucell3.png',
         title: 'Medicina Regenerativa',
         description: 'Estimula la regeneración natural de tu piel con terapias PRP y bioestimulación.',
-        width: '60%', // Porcentaje del ancho personalizado para esta imagen
-        height: '85%', // Porcentaje de la altura personalizado para esta imagen
+        width: '60%',
+        height: '85%',
     },
 ];
 
@@ -30,7 +30,7 @@ export default function Hero() {
     useEffect(() => {
         const interval = setInterval(() => {
             setCurrentIndex((prevIndex) => (prevIndex + 1) % carouselData.length);
-        }, 5000); // Cambia cada 5 segundos
+        }, 5000);
         return () => clearInterval(interval);
     }, []);
 
@@ -38,6 +38,9 @@ export default function Hero() {
 
     return (
         <section className="relative h-screen flex items-center bg-gradient-to-r from-[#0e4a6e] via-[#135e82] to-[#1994bf]">
+            {/* Capa de degradado superior para difuminado */}
+            <div className="absolute top-0 w-full h-32 bg-gradient-to-b from-[#0e4a6e] to-transparent"></div>
+
             {/* Contenido del Texto */}
             <div className="w-full md:w-1/3 h-full flex flex-col justify-center px-8 md:px-12 text-white">
                 <h1 className="text-4xl md:text-5xl font-bold text-[#fbd862]">{title}</h1>
@@ -50,18 +53,21 @@ export default function Hero() {
                 </a>
             </div>
 
-            {/* Carrusel de Imágenes */}
+            {/* Carrusel de Imágenes con difuminado inferior */}
             <div className="w-full md:w-2/3 h-full relative flex items-end justify-center">
                 <img
                     src={image}
                     alt={`Carrusel ${currentIndex}`}
                     className="transition-all duration-1000 ease-in-out"
                     style={{
-                        width: width, // Aplica el ancho personalizado
-                        height: height, // Aplica la altura personalizada
+                        width: width,
+                        height: height,
                         objectFit: 'contain',
                     }}
                 />
+
+                {/* Capa de degradado inferior para efecto difuminado */}
+                <div className="absolute bottom-0 w-full h-32 bg-gradient-to-t from-[#0e4a6e] to-transparent"></div>
             </div>
         </section>
     );

@@ -73,7 +73,7 @@ export default function Header() {
             <FontAwesomeIcon icon={faInstagram} size="lg" />
           </a>
           <a
-            href="https://www.tiktok.com/"
+            href="https://www.tiktok.com/@regeneracenterperu?_t=ZM-8tzyXtxn3VX&_r=1"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-100 hover:text-black transition"
