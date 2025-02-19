@@ -229,7 +229,7 @@ export default function Services() {
       title: "H. PROCEDIMIENTOS ESTETICOS UROLOGICOS",
       images: [
         {
-          src: "/ALARGAMIENTO DE PENE.png",
+          src: "/Alargamiento de Pene.png",
           subtitle: "Alargamiento de Pene",
           content:
             "Procedimiento médico que mejora la apariencia y funcionalidad mediante técnicas mínimamente invasivas, realizado por especialistas urológicos cualificados.",
