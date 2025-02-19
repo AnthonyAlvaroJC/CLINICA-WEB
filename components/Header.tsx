@@ -28,7 +28,7 @@ export default function Header() {
         <div className="flex items-center space-x-3">
           {/* Logo */}
           <img
-            src="/logo1.png" // Reemplaza con la ruta de tu logo
+            src="/img/logo1.png" // Reemplaza con la ruta de tu logo
             alt="Logo Regenera Center"
             className="w-12 h-12" // Ajusta el tamaño del logo según sea necesario
           />

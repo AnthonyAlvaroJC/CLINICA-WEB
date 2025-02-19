@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
 
-const images = ["/person2.png", "/person3.png", "/person6.png"];
+const images = ["/img/person2.png", "/img/person3.png", "/img/person6.png"];
 
 export default function AboutUs() {
   const [currentIndex, setCurrentIndex] = useState(0);

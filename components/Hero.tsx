@@ -2,21 +2,21 @@ import { useState, useEffect } from 'react';
 
 const carouselData = [
     {
-        image: 'carrucell1.png',
+        image: '/img/carrucell1.png',
         title: 'Medicina Estética Facial',
         description: 'Rejuvenece tu rostro con tratamientos avanzados como ácido hialurónico, Botox y más.',
         width: '80%',
         height: '90%',
     },
     {
-        image: 'carrucell2.png',
+        image: '/img/carrucell2.png',
         title: 'Medicina Corporal',
         description: 'Modela tu cuerpo con criolipólisis, mesoterapia y tecnología de vanguardia.',
         width: '100%',
         height: '76%',
     },
     {
-        image: 'carrucell3.png',
+        image: '/img/carrucell3.png',
         title: 'Medicina Regenerativa',
         description: 'Estimula la regeneración natural de tu piel con terapias PRP y bioestimulación.',
         width: '60%',
