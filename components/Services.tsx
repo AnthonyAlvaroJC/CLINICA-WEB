@@ -150,7 +150,7 @@ export default function Services() {
       title: 'MEDICINA REGENERATIVA "CAPILAR"',
       images: [
         {
-          src: "/PRP.png",
+          src: "/PRP - CITOQUINAS.png",
           subtitle: "PRP - CITOQUINAS",
           content:
             "Estimula el crecimiento del cabello y fortalece los folículos.",
