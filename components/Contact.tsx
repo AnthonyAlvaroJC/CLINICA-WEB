@@ -34,15 +34,15 @@ export default function ContactUs() {
                         <ul className="mt-6 space-y-4">
                             <li className="flex items-center">
                                 <Phone className="text-[#1994bf] mr-4" />
-                                <p className="text-gray-600">+51 997 584 512</p>
+                                <p className="text-gray-600">+51 971 798 222</p>
                             </li>
                             <li className="flex items-center">
                                 <Mail className="text-[#1994bf] mr-4" />
-                                <p className="text-gray-600">info@regeneracenter.com</p>
+                                <p className="text-gray-600">regeneracenter520@gmail.com</p>
                             </li>
                             <li className="flex items-center">
                                 <MapPin className="text-green-700 mr-4" />
-                                <p className="text-gray-600">Av. Paso de los Andes 520. Pueblo Libre - Lima</p>
+                                <p className="text-gray-600">Av. Paso de los Andes 520. Pueblo Libre</p>
                             </li>
                         </ul>
                     </motion.div>
