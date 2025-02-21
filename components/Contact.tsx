@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { Phone, Mail, MapPin } from 'lucide-react';
 
 export default function ContactUs() {
     return (
@@ -17,7 +18,7 @@ export default function ContactUs() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
                     {/* Información de Contacto */}
                     <motion.div
-                        className="bg-gray-50" // Se mantiene el color de fondo
+                        className="bg-gray-50"
                         initial={{ opacity: 0, x: -50 }}
                         whileInView={{ opacity: 1, x: 0 }}
                         transition={{ duration: 1, delay: 0.3 }}
@@ -32,23 +33,23 @@ export default function ContactUs() {
                         </p>
                         <ul className="mt-6 space-y-4">
                             <li className="flex items-center">
-                                <span className="material-icons text-[#1994bf] mr-4">phone</span>
+                                <Phone className="text-[#1994bf] mr-4" />
                                 <p className="text-gray-600">+51 997 584 512</p>
                             </li>
                             <li className="flex items-center">
-                                <span className="material-icons text-[#1994bf] mr-4">email</span>
+                                <Mail className="text-[#1994bf] mr-4" />
                                 <p className="text-gray-600">info@regeneracenter.com</p>
                             </li>
                             <li className="flex items-center">
-                                <span className="material-icons text-green-700 mr-4">place</span>
-                                <p className="text-gray-600">Av. Salud y Belleza 123, Lima, Perú</p>
+                                <MapPin className="text-green-700 mr-4" />
+                                <p className="text-gray-600">Av. Paso de los Andes 520. Pueblo Libre - Lima</p>
                             </li>
                         </ul>
                     </motion.div>
 
                     {/* Mapa Interactivo */}
                     <motion.div
-                        className="bg-gray-50" // Se mantiene el color de fondo
+                        className="bg-gray-50"
                         initial={{ opacity: 0, x: 50 }}
                         whileInView={{ opacity: 1, x: 0 }}
                         transition={{ duration: 1, delay: 0.4 }}

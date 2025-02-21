@@ -1,40 +1,17 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
 const carouselData = [
     {
-        image: '/img/carrucell1.png',
+        image: '/img/Inicio.png',
         title: 'Medicina Estética Facial',
         description: 'Rejuvenece tu rostro con tratamientos avanzados como ácido hialurónico, Botox y más.',
         width: '80%',
         height: '90%',
     },
-    {
-        image: '/img/carrucell2.png',
-        title: 'Medicina Corporal',
-        description: 'Modela tu cuerpo con criolipólisis, mesoterapia y tecnología de vanguardia.',
-        width: '100%',
-        height: '76%',
-    },
-    {
-        image: '/img/carrucell3.png',
-        title: 'Medicina Regenerativa',
-        description: 'Estimula la regeneración natural de tu piel con terapias PRP y bioestimulación.',
-        width: '60%',
-        height: '85%',
-    },
 ];
 
 export default function Hero() {
-    const [currentIndex, setCurrentIndex] = useState(0);
-
-    useEffect(() => {
-        const interval = setInterval(() => {
-            setCurrentIndex((prevIndex) => (prevIndex + 1) % carouselData.length);
-        }, 5000);
-        return () => clearInterval(interval);
-    }, []);
-
-    const { image, title, description, width, height } = carouselData[currentIndex];
+    const { image, title, description, width, height } = carouselData[0];
 
     return (
         <section className="relative h-screen flex items-center bg-gradient-to-r from-[#0e4a6e] via-[#135e82] to-[#1994bf]">
@@ -53,11 +30,11 @@ export default function Hero() {
                 </a>
             </div>
 
-            {/* Carrusel de Imágenes con difuminado inferior */}
+            {/* Imagen Estática */}
             <div className="w-full md:w-2/3 h-full relative flex items-end justify-center">
                 <img
                     src={image}
-                    alt={`Carrusel ${currentIndex}`}
+                    alt="Carrusel Estático"
                     className="transition-all duration-1000 ease-in-out"
                     style={{
                         width: width,

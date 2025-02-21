@@ -64,7 +64,7 @@ export default function Presentation() {
 
           <motion.img
             src="/img/Perfil.png"
-            alt="Dr. Alberto Shinzato"
+            alt="Dr. Luis Enrique Calderón Murga"
             className="w-full h-full object-cover shadow-lg transition-all duration-500"
             style={{ clipPath: "url(#clip)" }}
             initial={{ scale: 1, opacity: 0.8 }}
@@ -82,21 +82,12 @@ export default function Presentation() {
           transition={{ duration: 1 }}
         >
           <h3 className="text-3xl font-bold text-gray-800">
-            Soy el Dr. nombre y apellido
+            Dr. Luis Enrique Calderón Murga
           </h3>
           <p className="text-lg text-gray-600 mt-4">
-            Director médico de <span className="font-bold text-[#135e82]">Regenera Center</span>, especialista ................................................................................................
+            Gineco-Obstetra | Especialista en Fertilidad y Laparoscopia | Ginecología Estética - Láser
           </p>
-          <p className="text-lg text-gray-600 mt-4 flex items-center gap-2">
-            <span className="text-yellow-500 text-xl">🏅</span> Máster Injector RNE: 41740 EJEMPLO
-          </p>
-          {/*
-          <a
-            href="#"
-            className="inline-block mt-6 text-lg font-semibold text-[#135e82] hover:underline"
-          >
-            Descubrir más
-          </a>*/}
+         
         </motion.div>
       </div>
     </motion.section>
