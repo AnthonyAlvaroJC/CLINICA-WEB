@@ -52,15 +52,15 @@ export default function Footer() {
                     <ul className="space-y-4">
                         <li className="flex items-center">
                             <FontAwesomeIcon icon={faPhone} className="text-[#fbd862] mr-3" />
-                            <span className="text-gray-400">+51 997 584 512</span>
+                            <span className="text-gray-400">+51 971 798 222</span>
                         </li>
                         <li className="flex items-center">
                             <FontAwesomeIcon icon={faEnvelope} className="text-[#fbd862] mr-3" />
-                            <span className="text-gray-400">info@regeneracenter.com</span>
+                            <span className="text-gray-400">regeneracenter520@gmail.com</span>
                         </li>
                         <li className="flex items-center">
                             <FontAwesomeIcon icon={faMapMarkerAlt} className="text-[#fbd862] mr-3" />
-                            <span className="text-gray-400">Av. Salud y Belleza 123, Lima, Perú</span>
+                            <span className="text-gray-400">Av. Paso de los Andes 520. Pueblo Libre</span>
                         </li>
                     </ul>
                 </motion.div>
