@@ -11,7 +11,7 @@ const carouselData = [
 ];
 
 export default function Hero() {
-    const { image, title, description, width, height    } = carouselData[0];
+    const { image, title, description } = carouselData[0];
 
     return (
         <section className="relative h-screen flex items-center bg-gradient-to-r from-[#0e4a6e] via-[#135e82] to-[#1994bf]">
@@ -33,11 +33,11 @@ export default function Hero() {
             {/* Imagen Estática */}
             <div className="w-full md:w-2/3 h-full relative flex items-end justify-center">
             <Image
-    src={image}
-    alt="Carrusel Estático"
-    width={800} // Asegúrate de definir width y height
-    height={600}
-    className="transition-all duration-1000 ease-in-out object-contain"
+  src={image}
+  alt="Carrusel Estático"
+  width={800}  // Valor en píxeles
+  height={600}
+  className="transition-all duration-1000 ease-in-out object-contain"
 />
 
                 {/* Capa de degradado inferior para efecto difuminado */}
