@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Image from "next/image";
+
 import {
   faFacebook,
   faInstagram,
@@ -27,11 +29,14 @@ export default function Header() {
         {/* Logo y Título */}
         <div className="flex items-center space-x-3">
           {/* Logo */}
-          <img
-            src="/img/logo1.png" // Reemplaza con la ruta de tu logo
-            alt="Logo Regenera Center"
-            className="w-12 h-12" // Ajusta el tamaño del logo según sea necesario
-          />
+          <Image
+  src="/img/logo1.png"
+  alt="Logo Regenera Center"
+  width={48}  // Especifica ancho
+  height={48} // Especifica alto
+  className="w-12 h-12"
+/>
+
           <h1 className="text-2xl font-bold text-[#fbd862]">
           Regenera Center
           </h1>

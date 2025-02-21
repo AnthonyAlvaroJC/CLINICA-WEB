@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import Image from 'next/image';
 
 const carouselData = [
     {
@@ -11,7 +11,7 @@ const carouselData = [
 ];
 
 export default function Hero() {
-    const { image, title, description, width, height } = carouselData[0];
+    const { image, title, description, width, height    } = carouselData[0];
 
     return (
         <section className="relative h-screen flex items-center bg-gradient-to-r from-[#0e4a6e] via-[#135e82] to-[#1994bf]">
@@ -32,16 +32,13 @@ export default function Hero() {
 
             {/* Imagen Estática */}
             <div className="w-full md:w-2/3 h-full relative flex items-end justify-center">
-                <img
-                    src={image}
-                    alt="Carrusel Estático"
-                    className="transition-all duration-1000 ease-in-out"
-                    style={{
-                        width: width,
-                        height: height,
-                        objectFit: 'contain',
-                    }}
-                />
+            <Image
+    src={image}
+    alt="Carrusel Estático"
+    width={800} // Asegúrate de definir width y height
+    height={600}
+    className="transition-all duration-1000 ease-in-out object-contain"
+/>
 
                 {/* Capa de degradado inferior para efecto difuminado */}
                 <div className="absolute bottom-0 w-full h-32 bg-gradient-to-t from-[#0e4a6e] to-transparent"></div>
