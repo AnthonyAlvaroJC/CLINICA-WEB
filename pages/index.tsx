@@ -6,6 +6,7 @@ import Services from '../components/Services';
 import AboutUs from '../components/AboutUs';
 import Contact from '../components/Contact';
 import WhatsAppButton from '../components/WhatsAppButton';
+import Presentation from '@/components/Presentation';
 
 export default function Home() {
     return (
@@ -25,6 +26,9 @@ export default function Home() {
                 </section>
                 <section id="nosotros" className="snap-start">
                     <AboutUs />
+                </section>
+                <section id="presentacion" className="snap-start">
+                    <Presentation />
                 </section>
                 <section id="contacto" className="snap-start">
                     <Contact />
