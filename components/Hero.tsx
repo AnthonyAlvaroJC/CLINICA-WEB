@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const carouselData = [
     {
-        image: '/img/Inicio.png',
+        image: '/img/Inicio1.png',
         title: 'Medicina Estética Facial',
         description: 'Rejuvenece tu rostro con tratamientos avanzados como ácido hialurónico, Botox y más.',
         width: '80%',
